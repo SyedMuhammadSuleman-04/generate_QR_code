@@ -66,3 +66,6 @@ if uploaded_files:
             st.success(f"Decoded Data: {data}")
         else:
             st.error(f"No QR code detected in {uploaded_file.name}. Please upload a valid QR code image.")
+
+st.write("---------------------------------")
+st.write("Built with ❤️ by [Syed Muhammad Suleman](https://www.linkedin.com/in/syed-muhammad-suleman-a3784b2ab/))")
